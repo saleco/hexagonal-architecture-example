@@ -1,10 +1,10 @@
-package com.baeldung.hexagonalarchitecture.application.services;
+package com.baeldung.hexagonal.architecture.application.services;
 
-import com.baeldung.hexagonalarchitecture.application.domain.Car;
-import com.baeldung.hexagonalarchitecture.application.port.incoming.RentCarUseCase;
-import com.baeldung.hexagonalarchitecture.application.port.incoming.ReturnRentalUseCase;
-import com.baeldung.hexagonalarchitecture.application.port.outgoing.LoadCarPort;
-import com.baeldung.hexagonalarchitecture.application.port.outgoing.SaveCarPort;
+import com.baeldung.hexagonal.architecture.application.port.incoming.RentCarUseCase;
+import com.baeldung.hexagonal.architecture.application.domain.Car;
+import com.baeldung.hexagonal.architecture.application.port.incoming.ReturnRentalUseCase;
+import com.baeldung.hexagonal.architecture.application.port.outgoing.LoadCarPort;
+import com.baeldung.hexagonal.architecture.application.port.outgoing.SaveCarPort;
 import org.springframework.stereotype.Service;
 
 import java.util.NoSuchElementException;

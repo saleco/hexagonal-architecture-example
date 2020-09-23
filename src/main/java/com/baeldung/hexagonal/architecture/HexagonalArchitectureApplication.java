@@ -1,7 +1,7 @@
-package com.baeldung.hexagonalarchitecture;
+package com.baeldung.hexagonal.architecture;
 
-import com.baeldung.hexagonalarchitecture.adapters.persistence.CarRepository;
-import com.baeldung.hexagonalarchitecture.application.domain.Car;
+import com.baeldung.hexagonal.architecture.adapters.persistence.CarRepository;
+import com.baeldung.hexagonal.architecture.application.domain.Car;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

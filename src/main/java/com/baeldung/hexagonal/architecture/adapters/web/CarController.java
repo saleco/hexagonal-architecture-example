@@ -1,7 +1,7 @@
-package com.baeldung.hexagonalarchitecture.adapters.web;
+package com.baeldung.hexagonal.architecture.adapters.web;
 
-import com.baeldung.hexagonalarchitecture.application.port.incoming.RentCarUseCase;
-import com.baeldung.hexagonalarchitecture.application.port.incoming.ReturnRentalUseCase;
+import com.baeldung.hexagonal.architecture.application.port.incoming.RentCarUseCase;
+import com.baeldung.hexagonal.architecture.application.port.incoming.ReturnRentalUseCase;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

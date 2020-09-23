@@ -1,4 +1,4 @@
-package com.baeldung.hexagonalarchitecture.application.port.incoming;
+package com.baeldung.hexagonal.architecture.application.port.incoming;
 
 public interface ReturnRentalUseCase {
     boolean returnRental(Long id);

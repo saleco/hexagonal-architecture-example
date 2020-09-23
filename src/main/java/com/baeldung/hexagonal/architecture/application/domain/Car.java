@@ -1,4 +1,4 @@
-package com.baeldung.hexagonalarchitecture.application.domain;
+package com.baeldung.hexagonal.architecture.application.domain;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,8 +1,8 @@
-package com.baeldung.hexagonalarchitecture.adapters.persistence;
+package com.baeldung.hexagonal.architecture.adapters.persistence;
 
-import com.baeldung.hexagonalarchitecture.application.domain.Car;
-import com.baeldung.hexagonalarchitecture.application.port.outgoing.LoadCarPort;
-import com.baeldung.hexagonalarchitecture.application.port.outgoing.SaveCarPort;
+import com.baeldung.hexagonal.architecture.application.domain.Car;
+import com.baeldung.hexagonal.architecture.application.port.outgoing.LoadCarPort;
+import com.baeldung.hexagonal.architecture.application.port.outgoing.SaveCarPort;
 import org.springframework.stereotype.Component;
 
 import java.util.Optional;
